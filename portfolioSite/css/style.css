@@ -1,3 +1,16 @@
+h1, h2 {
+	color: #b84127;
+
+}
+
+p {
+  color: #333;
+}
+
+a:focus, a:hover {
+	text-decoration: none; 
+}
+
 .container-fluid {
 	padding-left: 0px;
 	padding-right: 0px;
@@ -12,7 +25,7 @@
 
 #header {
   width: 100%;
-  background-color: brown;
+  background-color: #b84127;
   min-height: 10px;
   text-align: right;
 
@@ -35,9 +48,22 @@
 
 }
 
-.hero-image {
-	width: 100%;
+.page-title {
+	max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
 
+}
+
+.title-sub-text {
+	max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    padding-bottom: 10px;
+    font-weight: 100;
+    letter-spacing: 2px;
 }
 
 .project-tiles {
@@ -57,7 +83,8 @@
 }
 
 .hero-image {
-	padding-bottom: 20px;
+	padding-bottom: 30px;
+	width: 100%;
 
 }
 
@@ -67,12 +94,18 @@
 
 }
 
+.intro-title {
+	max-width: 720px;
+	margin: auto;
+
+}
+
 .intro-copy {
-   text-align: center;
+   text-align: left;
    max-width: 720px;
    margin: auto;
    display: block;
-   padding-bottom: 20px;
+   padding: 10px 0px 30px 0px;
    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
    font-weight: 500;
    letter-spacing: 1px;
@@ -84,17 +117,13 @@
    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
    font-weight: 100;
    letter-spacing: 1px;
+   color: #b84127;
 }
 
 @media only screen and (max-width: 800px) {
 
 .main-container {
    margin: none;
-
-}
-
-.intro-copy {
-max-width: 660px;
 
 }
 
@@ -106,6 +135,11 @@ max-width: 660px;
 
 
 @media only screen and (max-width: 414px) {
+.site-title {
+    font-size: 15px;
+    padding-top: 8px;
+}
+
 .hero-image {
 	display: none;
 
@@ -123,16 +157,37 @@ max-width: 660px;
 
 }
 
+.page-title {
+	text-align: center;
+	font-size: 36px;
+
+}
+
+.title-sub-text {
+    text-align: center;
+    font-size: 17px;
+    padding-bottom: 10px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
 .intro-copy {
-	padding-top: 20px;
     line-height: 17px;
     font-size: 11px;
     max-width: 300px;
+    text-align: center;
 
 
 }
 
-.header {
+.intro-title {
+	padding-top: 20px;
+    line-height: 17px;
+    max-width: 300px;
+    text-align: center;
+}
+
+#header {
    min-height: 38px;
    text-align: left;
 }
