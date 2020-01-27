@@ -1,0 +1,156 @@
+.container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+
+}
+
+.main-container {
+   max-width: 1200px;
+   margin: auto;
+
+}
+
+#header {
+  width: 100%;
+  background-color: brown;
+  min-height: 10px;
+  text-align: right;
+
+}
+
+.social-icons {
+   max-width: 30px;
+   margin: 5px;
+
+}
+
+.logo {
+   max-width: 150px;
+   margin: 5px;
+
+}
+
+.social-icons:hover {
+	opacity: .4;
+
+}
+
+.hero-image {
+	width: 100%;
+
+}
+
+.project-tiles {
+	display: inline;
+	max-width: 100%;
+
+}
+
+.project-tiles:hover {
+	opacity: .7;
+
+}
+
+.container {
+	width: 100%;
+
+}
+
+.hero-image {
+	padding-bottom: 20px;
+
+}
+
+.hero-image-mobile {
+	display: none;
+	max-width: 100%;
+
+}
+
+.intro-copy {
+   text-align: center;
+   max-width: 720px;
+   margin: auto;
+   display: block;
+   padding-bottom: 20px;
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-weight: 500;
+   letter-spacing: 1px;
+
+
+}
+
+.site-title {
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-weight: 100;
+   letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 800px) {
+
+.main-container {
+   margin: none;
+
+}
+
+.intro-copy {
+max-width: 660px;
+
+}
+
+.site-title {	
+	font-size: 10px;
+}
+
+}
+
+
+@media only screen and (max-width: 414px) {
+.hero-image {
+	display: none;
+
+}
+
+.hero-image-mobile {
+	display: block;
+	margin-top: 17px;
+
+}
+
+.project-tiles {
+	max-width: 100%;
+	width: 100%
+
+}
+
+.intro-copy {
+	padding-top: 20px;
+    line-height: 17px;
+    font-size: 11px;
+    max-width: 300px;
+
+
+}
+
+.header {
+   min-height: 38px;
+   text-align: left;
+}
+
+.social-icons {
+	float: right;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
